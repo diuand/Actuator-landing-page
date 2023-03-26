@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    </head>
+    <body class="">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md justify-content-between ">
+            <div class="container-fluid"  >
+                <a href="#intro" class="navbar-brand">
+                    <span class="fw-bold text-secondary ms-3">Automate your Home</span>
+                </a>
+                <!-- toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end " id="main-nav">
+                    <ul class="navbar-nav text-center ">
+                        <li class="nav-item d-md-none"><a href="#topics" class="nav-link fw-bold border-bottom border-top mt-3">About the Product</a></li>
+                        <li class="nav-item d-md-none"><a href="#reviews" class="nav-link fw-bold border-bottom">Reviews</a></li>
+                        <li class="nav-item d-md-none"><a href="#contact" class="nav-link fw-bold border-bottom">Get in Touch</a></li>
+                        <li class="nav-item d-md-none"><a href="#pricing" class="nav-link fw-bold border-bottom">Pricing</a></li>
+                        
+                        <li class="nav-item d-none d-md-block"><a href="#topics" class="nav-link fw-bold ">About the Product</a></li>
+                        <li class="nav-item d-none d-md-block"><a href="#reviews" class="nav-link fw-bold ">Reviews</a></li>
+                        <li class="nav-item d-none d-md-block"><a href="#contact" class="nav-link fw-bold ">Get in Touch</a></li>
+
+                        <li class="nav-item me-2 d-none d-md-inline"><a href="#pricing" class="btn btn-primary text-light" >Buy now</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            
+
+
+        </nav>
+        <!-- main image & intro text -->
+        <section class="intro">
+            <div class="container-xl">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-center text-md-start">
+                        <!-- body -->
+                        <h1>
+                            <div class="display-2 fw-normal  ">Yellow pusher</div>
+                            <div class="display-5 text-muted">Your Window Opener</div>
+                        </h1>
+                        <p class="lead my-4 text-muted">For anyone who wants to make their life easier, this system will bring you the desired mechanical impulse </p>
+                        <a href="#pricing" class="btn btn-primary btn-lg text-light"  >Buy now</a>
+
+                        <!-- off-canvas toggle-->
+                        <a href="#sidebar" class="d-block mt-3 text-decoration-none text-primary" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">Explore other products</a>
+
+
+                    </div>
+                    <div class="col-md-5 ms-5 text-center d-none d-md-block">
+                        <img  style="width:140%" src="images/pngwing.com.png" alt="gym">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pricing -->
+        <section id="pricing" class="bg-light mt-5" >
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2>Pricing Plans</h2>
+                    <p class="lead text-muted">Choose your plan who swit to you</p>
+                </div>
+                <div class="row my-5 align-items-center justify-content-center g-0">
+                    <div class="col-8 col-lg-4 col-xl-3">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-body text-center rounded-3 py-4">
+                                <h4 class="card-title">Simple Pack</h4>
+                                <p class="lead card-subtitle">Actuator + Cables</p>
+                                <p class="display-5 my-4 text-primary fw-bold">$22.99</p>
+                                <p class="card-text mx-5 text-muted d-none d-lg-block">The actuator comes with the instruction manual.</p>
+                                <a href="#" class="btn btn-outline-primary bt-lg mt-3">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9 col-lg-4 ">
+                        <div class="card border-2 border-primary shadow-lg">
+                            <h4 class="card-header text-center fs-5  text-primary">Most popular pack</h4>
+                            <div class="card-body text-center rounded-3 py-5">
+                                <h4 class="card-title">Complete Pack</h4>
+                                <p class="lead card-subtitle">Plug and Play <strong>Complete</strong> Circuit</p>
+                                <p class="display-5 my-4 text-primary fw-bold">$25.99</p>
+                                <p class="card-text mx-5 text-muted d-none d-lg-block">The actuator comes with the instruction manual and extended warranty.</p>
+                                <a href="#" class="btn btn-outline-primary bt-lg mt-3">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-lg-4 col-xl-3">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-body text-center rounded-3 py-4">
+                                <h4 class="card-title">Extended Pack</h4>
+                                <p class="lead card-subtitle">Complete Pack + Rain sensor</p>
+                                <p class="display-5 my-4 text-primary fw-bold">$30.99</p>
+                                <p class="card-text mx-5 text-muted d-none d-lg-block">The actuator comes with the instruction manual and extended warranty and regular updates.</p>
+                                <a href="#" class="btn btn-outline-primary bt-lg mt-3">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- topics -->
+        <section id="topics">
+            <div class="container-md">
+                <div class="text-center">
+                    <h2>Inside the Circuit</h2>
+                    <p class="lean text-muted">Discover our circuit and all futures</p>
+                </div>
+                <div class="row my-5 g-5 justify-content-around align-items-center">
+                    <div class="col-6 col-lg-4 d-none d-md-block">
+                        <img src="images/Circuit-PNG-Image.png" class="img-fluid" alt="" style="width:100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- accordion -->
+                        <div class="accordion " id="chapters">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header" id="hedding-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                                        Schematic
+                                    </button>
+                                </h2>
+                                <div id="chapter-1" class="accordion accordion-collapse collapse " aria-labelledby="Headling-1" data-bs-parent="#chapters" >
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero corrupti suscipit, alias, recusandae odit vitae, fuga velit deserunt quaerat ut modi odio! Numquam molestias magni nostrum ipsam rem, repellendus quas!</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt libero incidunt, distinctio expedita alias reiciendis tenetur exercitationem doloremque repellat nobis cupiditate officiis adipisci ducimus non possimus, quo quos recusandae.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="hedding-2">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">
+                                        Layout
+                                    </button>
+                                </h2>
+                                <div id="chapter-2" class="accordion accordion-collapse collapse " aria-labelledby="Headling-2" data-bs-parent="#chapters" >
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero corrupti suscipit, alias, recusandae odit vitae, fuga velit deserunt quaerat ut modi odio! Numquam molestias magni nostrum ipsam rem, repellendus quas!</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt libero incidunt, distinctio expedita alias reiciendis tenetur exercitationem doloremque repellat nobis cupiditate officiis adipisci ducimus non possimus, quo quos recusandae.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="hedding-3">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="true" aria-controls="chapter-3">
+                                        Components
+                                    </button>
+                                </h2>
+                                <div id="chapter-3" class="accordion accordion-collapse collapse " aria-labelledby="Headling-3" data-bs-parent="#chapters" >
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero corrupti suscipit, alias, recusandae odit vitae, fuga velit deserunt quaerat ut modi odio! Numquam molestias magni nostrum ipsam rem, repellendus quas!</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt libero incidunt, distinctio expedita alias reiciendis tenetur exercitationem doloremque repellat nobis cupiditate officiis adipisci ducimus non possimus, quo quos recusandae.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="hedding-4">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="true" aria-controls="chapter-4">
+                                        Assambly
+                                    </button>
+                                </h2>
+                                <div id="chapter-4" class="accordion accordion-collapse collapse " aria-labelledby="Headling-4" data-bs-parent="#chapters" >
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero corrupti suscipit, alias, recusandae odit vitae, fuga velit deserunt quaerat ut modi odio! Numquam molestias magni nostrum ipsam rem, repellendus quas!</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deserunt libero incidunt, distinctio expedita alias reiciendis tenetur exercitationem doloremque repellat nobis cupiditate officiis adipisci ducimus non possimus, quo quos recusandae.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- reviews -->
+        <section id="reviews" class="bg-light">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2><i class="bi bi-stars"></i>Product Reviews</h2>
+                    <p class="lead">What <strong>Clients</strong> have said abou the books</p>
+                </div>
+                <div class="row justify-content-center my-5 ">
+                    <div class="col-lg-8 ">
+                        <div class="list-group rounded-3">
+                            <div class="list-group-item py-3">
+                                <div class="pb-2 text-warning ">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <h5 class="mb-1">A must buy for everyone</h5>
+                                <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi illum non veniam nulla. Assumenda reiciendis recusandae laboriosam cumque vero vel nihil nulla magni sequi. Aspernatur enim aliquid quibusdam harum error?</p>
+                                <small>Review by Andrei</small>
+                            </div>
+                            <div class="list-group-item py-3">
+                                <div class="pb-2 text-warning ">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                </div>
+                                <h5 class="mb-1">A great product with nice capabilities</h5>
+                                <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi illum non veniam nulla. Assumenda reiciendis recusandae laboriosam cumque vero vel nihil nulla magni sequi. Aspernatur enim aliquid quibusdam harum error?</p>
+                                <small>Review by Alex</small>
+                            </div>
+                            <div class="list-group-item py-3">
+                                <div class="pb-2 text-warning ">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                </div>
+                                <h5 class="mb-1">I like the concept about this product</h5>
+                                <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi illum non veniam nulla. Assumenda reiciendis recusandae laboriosam cumque vero vel nihil nulla magni sequi. Aspernatur enim aliquid quibusdam harum error?</p>
+                                <small>Review by Mario</small>
+                            </div>
+                            <div class="list-group-item py-3">
+                                <div class="pb-2 text-warning ">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                </div>
+                                <h5 class="mb-1">I use this prodct every day</h5>
+                                <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi illum non veniam nulla. Assumenda reiciendis recusandae laboriosam cumque vero vel nihil nulla magni sequi. Aspernatur enim aliquid quibusdam harum error?</p>
+                                <small>Review by Dorin</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2>Get in touch</h2>
+                    <p class="lead">Question to ask? FIll out the form to contact me directly...</p>
+                </div>
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-6">
+                        <form>
+                            <label for="email" class="form-label">Email adress:</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="e.g.mario@gmail.com">
+                            </div>
+                            
+                            
+                            <label for="name" class="form-label">Name:</label>
+                            <div class="input-group mb-4">
+                                <span class="input-group-text">
+                                    <i class="bi bi-chat-right-text"></i>
+                                </span>
+                                <input type="text" class="form-control" id="name" placeholder="e.g. Mario">
+                            </div>
+                            
+
+                            <label for="subject" class="form-label">What is your quastion about?</label>
+                            <div class="input-group mb-4">
+                                <span class="input-group-text">
+                                    <i class="bi bi-blockquote-left"></i>
+                                </span>
+                                <select id="subject" class="form-select">
+                                    <option value="pricing" selected>Pricing query</option>
+                                    <option value="content" >Content query</option>
+                                    <option value="other" >Other query</option>
+                                </select>
+                            </div>
+                            
+
+                            
+                            <div class="form-floating mb-4 mt-5">
+                                <textarea class="form-control" id="query" style="height: 140px;"></textarea>
+                                <label for="query">Your Query...</label>
+                            </div>
+                            <div class="mb-4 text-center">
+                                <button class="btn btn-secondary">Submit</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal-button -->
+        <section class="bg-light">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Stay in The Loop</h2>
+                    <p class="lead">Get the last update if they happends...</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">We are in continuous development, so expect something new to appear as soon as possible</p>
+                    <button class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                        Register for updates
+                    </button>   
+                </div>
+            </div>
+        </section>
+
+        <!-- modal -->
+        <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Get the Latest Updates</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class=" fw-bold">We are in continuous development, so expect something new to appear as soon as possible</p>
+                        <label for="modal-email" class="form-label">your email adress:</label>
+                        <input type="text" class="form-control" id="modal-email" placeholder="e.g.mario@exemple.com">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- off-canvas -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="sidebar-label">My other Products</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos delectus voluptate cum, nulla debitis voluptas aliquid fugiat architecto aspernatur dignissimos expedita vel culpa placeat ad nihil. Hic modi reprehenderit, voluptatum vero maxime, quod aliquid porro earum quis nobis voluptate soluta!
+                
+                <!-- dropdown -->
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">Choose another Product</button>
+                    <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                        <li><a href="#" class="dropdown-item">Door Opener</a></li>
+                        <li><a href="#" class="dropdown-item">Camera Recognition</a></li>
+                        <li><a href="#" class="dropdown-item">Lights Controller</a></li>
+                        <li><a href="#" class="dropdown-item">Another Circuits</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            
+        </div>
+
+
+        <script src="https://kit.fontawesome.com/7cb8da1320.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
